@@ -6,9 +6,40 @@
 
 
 body{
+  overflow: hidden;
   background-color: #050505;
 }
 
+
+.pop{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate:-50% -50%;
+  width: 500px;
+  height: 400px;
+  background-color: #fff;
+
+  img{
+    width: 100%;
+  }
+}
+
+
+.swiper1{
+  display: none !important;
+}
 
 
 .section01 {
@@ -82,7 +113,7 @@ body{
 
 
 .section03{
-  width: 1920px;
+  /* width: 1920px; */
   height: 1000px;
   background-color: #050505;
 
@@ -179,14 +210,18 @@ body{
 
 .detail{
   display: flex;
-  width: 1920px;
+  /* width: 1920px; */
   gap: 20px;
   padding: 0 40px 0 40px;
+
+  & div{
+    flex:1;
+  }
 
 }
 
 .detail_01{
-  width: 440px;
+  /* width: 440px; */
   height: 600px;
 }
 
@@ -199,7 +234,7 @@ body{
 
 
 .cd_h_text{
-  width: 400px;
+  /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
@@ -213,12 +248,12 @@ body{
 
 
 .cd_h_text2{
-  width: 400px;
+  /* width: 400px; */
   padding: 20px;
 }
 
 .detail_02{
-  width: 440px;
+  /* width: 440px; */
   height: 600px;
 }
 
@@ -231,7 +266,7 @@ body{
 
 
 .cd_h_text2{
-  width: 400px;
+  /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
@@ -245,12 +280,12 @@ body{
 
 
 .cd_h_text2-{
-  width: 400px;
+  /* width: 400px; */
   padding: 20px;
 }
 
 .detail_03{
-  width: 440px;
+  /* width: 440px; */
   height: 600px;
 }
 
@@ -263,7 +298,7 @@ body{
 
 
 .cd_h_text3{
-  width: 400px;
+  /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
@@ -277,12 +312,12 @@ body{
 
 
 .cd_h_text3-{
-  width: 400px;
+  /* width: 400px; */
   padding: 20px;
 }
 
 .detail_04{
-  width: 440px;
+  /* width: 440px; */
   height: 600px;
 }
 
@@ -295,7 +330,7 @@ body{
 
 
 .cd_h_text4{
-  width: 400px;
+  /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
@@ -309,7 +344,7 @@ body{
 
 
 .cd_h_text4-{
-  width: 400px;
+  /* width: 400px; */
   padding: 20px;
 }
 
