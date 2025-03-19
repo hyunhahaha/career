@@ -3,16 +3,22 @@
   }
    */
 
-
-
-body{
+body {
   overflow: hidden;
   background-color: #050505;
 }
 
+.pages{
+  opacity: 0;
+  visibility: hidden;
+}
 
+.pop {
+  visibility: hidden;
+  opacity: 0;
+}
 
-.pop1{
+.pop1 {
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -23,23 +29,21 @@ body{
   /* display: none; */
 }
 
-.common1{
+.common1 {
   position: absolute;
   left: 50%;
   top: 50%;
-  translate:-50% -50%;
+  translate: -50% -50%;
   width: 600px;
   height: 600px;
   background-color: #050505;
 
-  img{
+  img {
     width: 100%;
   }
 }
 
-
-
-.pop2{
+.pop2 {
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -50,25 +54,23 @@ body{
   /* display: none; */
 }
 
-.common2{
+.common2 {
   position: absolute;
   left: 50%;
   top: 50%;
-  translate:-50% -50%;
+  translate: -50% -50%;
   width: 600px;
   height: 450px;
   background-color: #050505;
 
-  img{
+  img {
     width: 100%;
   }
 }
 
-
-.swiper1{
+.swiper1 {
   /* display: none !important; */
 }
-
 
 .section01 {
   /* width: 1920px; */
@@ -91,28 +93,22 @@ body{
   gap: 30px;
 }
 
-
-
-
-
-.section02{
+.section02 {
   /* width: 1920px; */
   height: 296px;
   background-color: #050505;
   border-style: none;
 
-  .text_container{
+  .text_container {
     padding: 100px 60px 40px 60px;
     text-align: center;
-
   }
 }
 
-.main_text{
+.main_text {
   list-style: none; /* 기본 리스트 스타일 제거 */
   padding: 0; /* 기본 패딩 제거 */
 }
-
 
 .main_text .h1 li,
 .main_text .h2 li {
@@ -129,8 +125,7 @@ body{
   color: #555; /* h2 텍스트 색상 */
 }
 
-
-.text_bottom .web_design{
+.text_bottom .web_design {
   display: flex; /* Flexbox 활성화 */
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
   background-color: #050505;
@@ -139,17 +134,13 @@ body{
   text-align: center;
 }
 
-
-
-
-
-.section03{
+.section03 {
   /* width: 1920px; */
   height: 1300px;
   background-color: #050505;
   border-style: none;
 
-  .category{
+  .category {
     padding: 0px 50px 60px 50px;
     text-align: center;
     display: flex;
@@ -158,212 +149,199 @@ body{
   }
 }
 
-.c1{
+.c1 {
   width: 100px;
   height: 40px;
   background-color: #050505;
   border: 1px solid white;
   border-radius: 50px;
-  display: flex;              /* Flexbox 활성화 */
-  justify-content: center;    /* 수평 가운데 정렬 */
-  align-items: center;        /* 세로 가운데 정렬 */
+  display: flex; /* Flexbox 활성화 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
 }
 
 .c1:hover {
   background-color: white; /* hover 시 배경색을 흰색으로 변경 */
-  color: #050505;          /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  color: #050505; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
 }
 
-.c2{
+.c2 {
   width: 100px;
   height: 40px;
   background-color: #050505;
   border: 1px solid white;
   border-radius: 50px;
-  display: flex;              /* Flexbox 활성화 */
-  justify-content: center;    /* 수평 가운데 정렬 */
-  align-items: center;        /* 세로 가운데 정렬 */
+  display: flex; /* Flexbox 활성화 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
 }
 
 .c2:hover {
   background-color: white; /* hover 시 배경색을 흰색으로 변경 */
-  color: #050505;          /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  color: #050505; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
 }
 
-.c3{
+.c3 {
   width: 100px;
   height: 40px;
   background-color: #050505;
   border: 1px solid white;
   border-radius: 50px;
-  display: flex;              /* Flexbox 활성화 */
-  justify-content: center;    /* 수평 가운데 정렬 */
-  align-items: center;        /* 세로 가운데 정렬 */
+  display: flex; /* Flexbox 활성화 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
 }
 
-.c4{
+.c4 {
   width: 100px;
   height: 40px;
   background-color: #050505;
   border: 1px solid white;
   border-radius: 50px;
-  display: flex;              /* Flexbox 활성화 */
-  justify-content: center;    /* 수평 가운데 정렬 */
-  align-items: center;        /* 세로 가운데 정렬 */
+  display: flex; /* Flexbox 활성화 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
 }
 
 .c3:hover {
   background-color: white; /* hover 시 배경색을 흰색으로 변경 */
-  color: #050505;          /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  color: #050505; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
 }
 
 .c4:hover {
   background-color: white; /* hover 시 배경색을 흰색으로 변경 */
-  color: #050505;          /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  color: #050505; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
 }
 
-.c5{
+.c5 {
   width: 100px;
   height: 40px;
   background-color: #050505;
   border: 1px solid white;
   border-radius: 50px;
-  display: flex;              /* Flexbox 활성화 */
-  justify-content: center;    /* 수평 가운데 정렬 */
-  align-items: center;        /* 세로 가운데 정렬 */
+  display: flex; /* Flexbox 활성화 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
 }
 
 .c5:hover {
   background-color: white; /* hover 시 배경색을 흰색으로 변경 */
-  color: #050505;          /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  color: #050505; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
 }
 
-
-
-.detail_1_line{
+.detail{
+  opacity: 1;
+  visibility: initial;
+}
+.detail_1_line {
   display: flex;
   /* width: 1920px; */
   gap: 20px;
   padding: 0 40px 0 40px;
 
-  & div{
-    flex:1;
+  & div {
+    flex: 1;
   }
-
 }
 
-.detail_01{
+.detail_01 {
   /* width: 440px; */
   height: 600px;
 }
 
-
 .detail_01 .cd_h img {
-  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
-  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
-  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
 }
 
-
-.cd_h_text{
+.cd_h_text {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
   align-items: center;
 }
-
 
 .detail_01 .cd_h_text li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-
-.cd_h_text2{
+.cd_h_text2 {
   /* width: 400px; */
   padding: 20px;
 }
 
-.detail_02{
+.detail_02 {
   /* width: 440px; */
   height: 600px;
 }
 
-
 .detail_02 .cd_h2 img {
-  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
-  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
-  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
   padding: 50px 0 50px 0;
 }
 
-
-.cd_h_text2{
+.cd_h_text2 {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
   align-items: center;
 }
-
 
 .detail_02 .cd_h_text2 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-
-.cd_h_text2-{
+.cd_h_text2- {
   /* width: 400px; */
   padding: 20px;
 }
 
-.detail_03{
+.detail_03 {
   /* width: 440px; */
   height: 600px;
 }
 
-
 .detail_03 .cd_h3 img {
-  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
-  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
-  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
 }
 
-
-.cd_h_text3{
+.cd_h_text3 {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
   align-items: center;
 }
-
 
 .detail_03 .cd_h_text3 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-
-.cd_h_text3-{
+.cd_h_text3- {
   /* width: 400px; */
   padding: 20px;
 }
 
-.detail_04{
+.detail_04 {
   /* width: 440px; */
   height: 600px;
 }
 
-
 .detail_04 .cd_h4 img {
-  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
-  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
-  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
   padding: 50px 0 50px 0;
 }
 
-
-.cd_h_text4{
+.cd_h_text4 {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
@@ -371,143 +349,124 @@ body{
   align-items: center;
 }
 
-
 .detail_04 .cd_h_text4 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-
-.cd_h_text4-{
+.cd_h_text4- {
   /* width: 400px; */
   padding: 20px;
 }
 
-
-
-.detail_2_line{
+.detail_2_line {
   display: flex;
   /* width: 1920px; */
   gap: 20px;
   padding: 0 40px 0 40px;
 
-  & div{
-    flex:1;
+  & div {
+    flex: 1;
   }
-
 }
 
-.detail_01{
+.detail_01 {
   /* width: 440px; */
   height: 600px;
 }
 
-
 .detail_01 .cd_h img {
-  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
-  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
-  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
 }
 
-
-.cd_h_text{
+.cd_h_text {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
   align-items: center;
 }
-
 
 .detail_01 .cd_h_text li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-
-.cd_h_text2{
+.cd_h_text2 {
   /* width: 400px; */
   padding: 20px;
 }
 
-.detail_02{
+.detail_02 {
   /* width: 440px; */
   height: 600px;
 }
 
-
 .detail_02 .cd_h2 img {
-  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
-  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
-  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
   padding: 50px 0 50px 0;
 }
 
-
-.cd_h_text2{
+.cd_h_text2 {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
   align-items: center;
 }
-
 
 .detail_02 .cd_h_text2 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-
-.cd_h_text2-{
+.cd_h_text2- {
   /* width: 400px; */
   padding: 20px;
 }
 
-.detail_03{
+.detail_03 {
   /* width: 440px; */
   height: 600px;
 }
 
-
 .detail_03 .cd_h3 img {
-  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
-  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
-  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
 }
 
-
-.cd_h_text3{
+.cd_h_text3 {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
   align-items: center;
 }
-
 
 .detail_03 .cd_h_text3 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-
-.cd_h_text3-{
+.cd_h_text3- {
   /* width: 400px; */
   padding: 20px;
 }
 
-.detail_04{
+.detail_04 {
   /* width: 440px; */
   height: 600px;
 }
 
-
 .detail_04 .cd_h4 img {
-  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
-  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
-  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
   padding: 50px 0 50px 0;
 }
 
-
-.cd_h_text4{
+.cd_h_text4 {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
@@ -515,21 +474,17 @@ body{
   align-items: center;
 }
 
-
 .detail_04 .cd_h_text4 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-
-.cd_h_text4-{
+.cd_h_text4- {
   /* width: 400px; */
   padding: 20px;
 }
 
-
-
-.footer{
-  img{
+.footer {
+  img {
     width: 100%;
   }
 }
