@@ -11,7 +11,8 @@ body{
 }
 
 
-.pop{
+
+.pop1{
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -22,14 +23,41 @@ body{
   /* display: none; */
 }
 
-.common{
+.common1{
   position: absolute;
   left: 50%;
   top: 50%;
   translate:-50% -50%;
-  width: 500px;
-  height: 400px;
-  background-color: #fff;
+  width: 600px;
+  height: 600px;
+  background-color: #050505;
+
+  img{
+    width: 100%;
+  }
+}
+
+
+
+.pop2{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate:-50% -50%;
+  width: 600px;
+  height: 450px;
+  background-color: #050505;
 
   img{
     width: 100%;
@@ -38,20 +66,22 @@ body{
 
 
 .swiper1{
-  display: none !important;
+  /* display: none !important; */
 }
 
 
 .section01 {
-  width: 1920px;
-  height: 80px;
+  /* width: 1920px; */
+  height: 60px;
+  border-style: none;
+  border-bottom: 1px solid white; /* 위쪽에 5px 두께의 흰색 선 추가 */
 }
 
 .header_text {
   display: flex; /* Flexbox 활성화 */
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
   background-color: #050505;
-  padding: 30px 50px 30px 50px;
+  padding: 30px 50px 10px 50px;
   list-style: none; /* 기본 리스트 스타일 제거 */
   text-align: center;
 }
@@ -66,12 +96,13 @@ body{
 
 
 .section02{
-  width: 1920px;
-  height: 280px;
+  /* width: 1920px; */
+  height: 296px;
   background-color: #050505;
+  border-style: none;
 
   .text_container{
-    padding: 60px;
+    padding: 100px 60px 40px 60px;
     text-align: center;
 
   }
@@ -114,11 +145,12 @@ body{
 
 .section03{
   /* width: 1920px; */
-  height: 1000px;
+  height: 1300px;
   background-color: #050505;
+  border-style: none;
 
   .category{
-    padding: 30px 50px 50px 50px;
+    padding: 0px 50px 60px 50px;
     text-align: center;
     display: flex;
     gap: 10px;
@@ -208,7 +240,7 @@ body{
 
 
 
-.detail{
+.detail_1_line{
   display: flex;
   /* width: 1920px; */
   gap: 20px;
@@ -243,7 +275,7 @@ body{
 
 
 .detail_01 .cd_h_text li:first-child {
-  font-size: 28px; /* 원하는 폰트 크기 */
+  font-size: 26px; /* 원하는 폰트 크기 */
 }
 
 
@@ -262,6 +294,7 @@ body{
   width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 50px 0 50px 0;
 }
 
 
@@ -275,7 +308,7 @@ body{
 
 
 .detail_02 .cd_h_text2 li:first-child {
-  font-size: 28px; /* 원하는 폰트 크기 */
+  font-size: 26px; /* 원하는 폰트 크기 */
 }
 
 
@@ -307,7 +340,7 @@ body{
 
 
 .detail_03 .cd_h_text3 li:first-child {
-  font-size: 28px; /* 원하는 폰트 크기 */
+  font-size: 26px; /* 원하는 폰트 크기 */
 }
 
 
@@ -326,6 +359,7 @@ body{
   width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 50px 0 50px 0;
 }
 
 
@@ -339,7 +373,7 @@ body{
 
 
 .detail_04 .cd_h_text4 li:first-child {
-  font-size: 28px; /* 원하는 폰트 크기 */
+  font-size: 26px; /* 원하는 폰트 크기 */
 }
 
 
@@ -349,7 +383,153 @@ body{
 }
 
 
-  /* .section01{
-    height: 3300px;
-    background-color: black;
-  } */
+
+.detail_2_line{
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div{
+    flex:1;
+  }
+
+}
+
+.detail_01{
+  /* width: 440px; */
+  height: 600px;
+}
+
+
+.detail_01 .cd_h img {
+  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+
+.cd_h_text{
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+
+.detail_01 .cd_h_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+
+.cd_h_text2{
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.detail_02{
+  /* width: 440px; */
+  height: 600px;
+}
+
+
+.detail_02 .cd_h2 img {
+  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 50px 0 50px 0;
+}
+
+
+.cd_h_text2{
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+
+.detail_02 .cd_h_text2 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+
+.cd_h_text2-{
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.detail_03{
+  /* width: 440px; */
+  height: 600px;
+}
+
+
+.detail_03 .cd_h3 img {
+  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+
+.cd_h_text3{
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+
+.detail_03 .cd_h_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+
+.cd_h_text3-{
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.detail_04{
+  /* width: 440px; */
+  height: 600px;
+}
+
+
+.detail_04 .cd_h4 img {
+  width: 100%;           /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%;          /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain;   /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 50px 0 50px 0;
+}
+
+
+.cd_h_text4{
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+
+.detail_04 .cd_h_text4 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+
+.cd_h_text4-{
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.footer{
+  img{
+    width: 100%;
+  }
+}
