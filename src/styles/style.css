@@ -68,6 +68,37 @@ body {
   }
 }
 
+
+
+.pop4 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common4 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 600px;
+  height: 800px;
+  background-color: #050505;
+
+  img {
+    width: 100%;
+  }
+}
+
+
+
+
+
 .swiper1 {
   /* display: none !important; */
 }
@@ -134,11 +165,26 @@ body {
   text-align: center;
 }
 
+
+
+
+
+.pages {
+  display: none;
+}
+
+.pages.active {
+  display: block;
+}
+
+
+
 .section03 {
   /* width: 1920px; */
-  height: 1300px;
+  /* height: 2350px; */
   background-color: #050505;
   border-style: none;
+  
 
   .category {
     padding: 0px 50px 60px 50px;
@@ -229,6 +275,12 @@ body {
   color: #050505; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
 }
 
+
+
+
+
+
+
 .detail{
   opacity: 1;
   visibility: initial;
@@ -255,6 +307,8 @@ body {
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
 }
 
+
+
 .cd_h_text {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
@@ -267,7 +321,7 @@ body {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-.cd_h_text2 {
+.cd_h_text- {
   /* width: 400px; */
   padding: 20px;
 }
@@ -281,16 +335,9 @@ body {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 50px 0 50px 0;
+  padding: 42.5px 0 42.5px 0;
 }
 
-.cd_h_text2 {
-  /* width: 400px; */
-  padding: 30px 20px 0px 20px;
-  display: flex;
-  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
-  align-items: center;
-}
 
 .detail_02 .cd_h_text2 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
@@ -338,7 +385,7 @@ body {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 50px 0 50px 0;
+  padding: 42.5px 0 42.5px 0;
 }
 
 .cd_h_text4 {
@@ -369,12 +416,12 @@ body {
   }
 }
 
-.detail_01 {
+.detail_05 {
   /* width: 440px; */
   height: 600px;
 }
 
-.detail_01 .cd_h img {
+.detail_05 .cd_h img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
@@ -388,25 +435,25 @@ body {
   align-items: center;
 }
 
-.detail_01 .cd_h_text li:first-child {
+.detail_05 .cd_h_text li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-.cd_h_text2 {
+.cd_h_text- {
   /* width: 400px; */
   padding: 20px;
 }
 
-.detail_02 {
+.detail_06 {
   /* width: 440px; */
   height: 600px;
 }
 
-.detail_02 .cd_h2 img {
+.detail_06 .cd_h2 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 50px 0 50px 0;
+  padding: 42.5px 0 42.5px 0;
 }
 
 .cd_h_text2 {
@@ -417,7 +464,7 @@ body {
   align-items: center;
 }
 
-.detail_02 .cd_h_text2 li:first-child {
+.detail_06 .cd_h_text2 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
@@ -426,12 +473,12 @@ body {
   padding: 20px;
 }
 
-.detail_03 {
+.detail_07 {
   /* width: 440px; */
   height: 600px;
 }
 
-.detail_03 .cd_h3 img {
+.detail_07 .cd_h3 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
@@ -445,7 +492,7 @@ body {
   align-items: center;
 }
 
-.detail_03 .cd_h_text3 li:first-child {
+.detail_07 .cd_h_text3 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
@@ -454,16 +501,16 @@ body {
   padding: 20px;
 }
 
-.detail_04 {
+.detail_08 {
   /* width: 440px; */
   height: 600px;
 }
 
-.detail_04 .cd_h4 img {
+.detail_08 .cd_h4 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 50px 0 50px 0;
+  padding: 42.5px 0 42.5px 0;
 }
 
 .cd_h_text4 {
@@ -474,7 +521,7 @@ body {
   align-items: center;
 }
 
-.detail_04 .cd_h_text4 li:first-child {
+.detail_08 .cd_h_text4 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
@@ -482,6 +529,938 @@ body {
   /* width: 400px; */
   padding: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.event{
+  opacity: 1;
+  visibility: initial;
+}
+.event_1_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+.event_01 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.event_01 .gj img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 22.5px 0 22.5px 0;
+}
+
+
+
+.gj_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.event_01 .gj_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.gj_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.event_02 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.event_02 .primeday img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 22.5px 0 22.5px 0;
+}
+
+
+.primeday_text2 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+
+.event_02 .primeday_text2 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.primeday_text2- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.event_03 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.event_03 .christmas img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 22.5px 0 22.5px 0;
+}
+
+.christmas_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.event_03 .christmas_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.christmas_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.event_04 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.event_04 .medi247 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 42.5px 0 42.5px 0; */
+}
+
+.medi247_text4 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.event_04 .medi247_text4 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.medi247_text4- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+.event_2_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+.event_05 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.event_05 .anillo_amber img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 22.5px 0 22.5px 0;
+}
+
+
+
+.anillo_amber_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.event_05 .anillo_amber_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.anillo_amber_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.event_06 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.event_06 .anillo_lime img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 22.5px 0 22.5px 0;
+}
+
+
+.anillo_lime_text2 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+
+.event_06 .anillo_lime_text2 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.anillo_lime_text2- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.event_07 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.event_07 .anillo_mothers img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 22.5px 0 22.5px 0;
+}
+
+.anillo_mothers_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.event_07 .anillo_mothers_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.anillo_mothers_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.event_07 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.event_07 .anillo_mothers img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 22.5px 0 22.5px 0;
+}
+
+.anillo_mothers_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.event_07 .anillo_mothers_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.anillo_mothers_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+.fashion{
+  opacity: 1;
+  visibility: initial;
+}
+.fashion_1_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+.fashion_01 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.main_01 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_01_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_01 .main_01_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_01_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.main_02 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_02_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_02 .main_02_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_02_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.main_03 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_03_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_03 .main_03_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_03_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.fashion_3_line .main_04 img{
+  padding: 135px 0 135px 0;
+}
+
+.main_04 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_04_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_04 .main_04_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_04_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.fashion_2_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+
+.fashion_05 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.main_05 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_05_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_05 .main_05_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_05_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.main_06 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_06_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_06 .main_06_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_06_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.main_07 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_07_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_07 .main_07_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_07_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.fashion_3_line .main_08 img{
+  padding: 135px 0 135px 0;
+}
+
+.main_08 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_08_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_08 .main_08_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_08_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.fashion_3_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+
+
+.fashion_09 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.main_09 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_09_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_09 .main_09_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_09_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.main_10 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_10_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_10 .main_10_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_10_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.main_11 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_11_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_11 .main_11_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_11_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.fashion_3_line .main_12 img{
+  padding: 135px 0 135px 0;
+}
+
+.main_12 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_12_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_12 .main_12_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_12_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+.fashion_4_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+
+
+
+
+
+.fashion_13 {
+  /* width: 440px; */
+  height: 440px;
+}
+
+.main_13 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_13_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_13 .main_13_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_13_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.main_14 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_14_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_14 .main_14_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_14_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.main_15 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_15_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_15 .main_15_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_15_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.fashion_4_line .main_13 img{
+  padding: 25px 0 25px 0;
+}
+
+
+.fashion_4_line .main_15 img{
+  padding: 42.5px 0 42.5px 0;
+}
+
+.fashion_4_line .main_16 img{
+  padding: 42.5px 0 42.5px 0;
+}
+
+.main_16 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_16_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_16 .main_16_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_16_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+
+.fashion_5_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+
+
+
+
+
+.fashion_17 {
+  /* width: 440px; */
+  height: 530px;
+}
+
+.main_17 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_17_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_17 .main_17_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_17_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.main_18 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_18_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_18 .main_18_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_18_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.main_19 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_19_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_19 .main_19_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_19_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+.fashion_5_line .main_18 img{
+  padding: 30px 0 30px 0;
+}
+
+.fashion_5_line .main_19 img{
+  padding: 30px 0 30px 0;
+}
+
+.fashion_5_line .main_20 img{
+  padding: 71.5px 0 71.5px 0;
+}
+
+.main_20 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.main_20_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.fashion_20 .main_20_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.main_20_text2 {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
 
 .footer {
   img {
