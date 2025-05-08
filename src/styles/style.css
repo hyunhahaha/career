@@ -68,7 +68,30 @@ body {
   }
 }
 
+.pop3 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
 
+.common3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 600px;
+  height: 600px;
+  background-color: #050505;
+
+  img {
+    width: 100%;
+  }
+}
 
 .pop4 {
   width: 100vw;
@@ -87,13 +110,46 @@ body {
   top: 50%;
   translate: -50% -50%;
   width: 600px;
-  height: 800px;
+  height: 450px;
   background-color: #050505;
 
   img {
     width: 100%;
   }
 }
+
+.pop5 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common5 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 600px;
+  height: 600px;
+  background-color: #050505;
+
+  img {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -301,7 +357,7 @@ body {
   height: 600px;
 }
 
-.detail_01 .cd_h img {
+.detail_01 .ct img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
@@ -309,7 +365,7 @@ body {
 
 
 
-.cd_h_text {
+.ct_text {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
@@ -317,11 +373,11 @@ body {
   align-items: center;
 }
 
-.detail_01 .cd_h_text li:first-child {
+.detail_01 .ct_text li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-.cd_h_text- {
+.ct_text- {
   /* width: 400px; */
   padding: 20px;
 }
@@ -331,7 +387,7 @@ body {
   height: 600px;
 }
 
-.detail_02 .cd_h2 img {
+.detail_02 .ct2 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
@@ -339,11 +395,19 @@ body {
 }
 
 
-.detail_02 .cd_h_text2 li:first-child {
+.detail_02 .ct_text2 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-.cd_h_text2- {
+.ct_text2{
+    /* width: 400px; */
+    padding: 30px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+    align-items: center;
+}
+
+.ct_text2- {
   /* width: 400px; */
   padding: 20px;
 }
@@ -353,13 +417,13 @@ body {
   height: 600px;
 }
 
-.detail_03 .cd_h3 img {
+.detail_03 .vt-g3 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
 }
 
-.cd_h_text3 {
+.vt-g_text3 {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
@@ -367,11 +431,11 @@ body {
   align-items: center;
 }
 
-.detail_03 .cd_h_text3 li:first-child {
+.detail_03 .vt-g_text3 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-.cd_h_text3- {
+.vt-g_text3- {
   /* width: 400px; */
   padding: 20px;
 }
@@ -381,14 +445,14 @@ body {
   height: 600px;
 }
 
-.detail_04 .cd_h4 img {
+.detail_04 .vt-g2_4 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
   padding: 42.5px 0 42.5px 0;
 }
 
-.cd_h_text4 {
+.vt-g2_text4 {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
@@ -396,14 +460,18 @@ body {
   align-items: center;
 }
 
-.detail_04 .cd_h_text4 li:first-child {
+.detail_04 .vt-g2_text4 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-.cd_h_text4- {
+.vt-g2_text4- {
   /* width: 400px; */
   padding: 20px;
 }
+
+
+
+
 
 .detail_2_line {
   display: flex;
@@ -478,13 +546,13 @@ body {
   height: 600px;
 }
 
-.detail_07 .cd_h3 img {
+.detail_07 .cg_h3 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
 }
 
-.cd_h_text3 {
+.cg_h_text3 {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
@@ -492,11 +560,11 @@ body {
   align-items: center;
 }
 
-.detail_07 .cd_h_text3 li:first-child {
+.detail_07 .cg_h_text3 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-.cd_h_text3- {
+.cg_h_text3- {
   /* width: 400px; */
   padding: 20px;
 }
@@ -506,14 +574,14 @@ body {
   height: 600px;
 }
 
-.detail_08 .cd_h4 img {
+.detail_08 .cg_h4 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
   padding: 42.5px 0 42.5px 0;
 }
 
-.cd_h_text4 {
+.cg_h_text4 {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
@@ -521,11 +589,273 @@ body {
   align-items: center;
 }
 
-.detail_08 .cd_h_text4 li:first-child {
+.detail_08 .cg_h_text4 li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-.cd_h_text4- {
+.cg_h_text4- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+
+
+
+.detail_3_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+.detail_09 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.detail_09 .cd_j img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.cd_j_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.detail_09 .cd_j_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.cd_j_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.detail_10 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.detail_10 .cd_j2 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 42.5px 0 42.5px 0;
+}
+
+.cd_j_text2 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.detail_10 .cd_j_text2 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.cd_j_text2- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.detail_11 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.detail_11 .cg_s3 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.cg_s_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.detail_11 .cg_s_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.cg_s_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.detail_12 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.detail_12 .cg_s4 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 42.5px 0 42.5px 0;
+}
+
+.cg_s_text4 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.detail_12 .cg_s_text4 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.cg_s_text4- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+
+
+
+.detail_4_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+.detail_13 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.detail_13 .tt img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.tt_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.detail_13 .tt_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.tt_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.detail_14 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.detail_14 .cd_j2 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 42.5px 0 42.5px 0;
+}
+
+.cd_j_text2 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.detail_14 .cd_j_text2 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.cd_j_text2- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.detail_15 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.detail_15 .cg_s3 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+}
+
+.cg_s_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.detail_15 .cg_s_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.cg_s_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.detail_16 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.detail_16 .cg_s4 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 42.5px 0 42.5px 0;
+}
+
+.cg_s_text4 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.detail_16 .cg_s_text4 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.cg_s_text4- {
   /* width: 400px; */
   padding: 20px;
 }
@@ -816,6 +1146,717 @@ body {
   /* width: 400px; */
   padding: 20px;
 }
+
+
+
+
+
+
+
+
+
+.banner{
+  opacity: 1;
+  visibility: initial;
+}
+.banner_1_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+.banner_01 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.banner_01 .amazon_01 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+
+.amazon_01_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.banner_01 .amazon_01_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.amazon_01_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.banner_02 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.banner_02 .amazon_02 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+.amazon_02_text2 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+
+.banner_02 .amazon_02_text2 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.amazon_02_text2- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.banner_03 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.banner_03 .holidaykit img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+.holidaykit_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.banner_03 .holidaykit_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.holidaykit_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.banner_04 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.banner_04 .global_web img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 42.5px 0 42.5px 0; */
+}
+
+.global_web_text4 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.banner_04 .global_web_text4 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.global_web_text4- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+.banner_2_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+.banner_05 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.banner_05 .global_web2 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 22.5px 0 22.5px 0;
+}
+
+
+
+.global_web2_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.banner_05 .global_web2_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.global_web2_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.banner_06 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.banner_06 .global_web3 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 22.5px 0 22.5px 0;
+}
+
+
+.global_web3_text2 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+
+.banner_06 .global_web3_text2 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.global_web3_text2- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.banner_07 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.banner_07 .medi247_g img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+.medi247_g_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.banner_07 .medi247_g_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.medi247_g_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.banner_08 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.banner_08 .trialkit img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+.trialkit_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.banner_08 .trialkit_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.trialkit_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ad{
+  opacity: 1;
+  visibility: initial;
+}
+.ad_1_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+.ad_01 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_01 .sunstick img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+
+.sunstick_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_01 .sunstick_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.sunstick_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.ad_02 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_02 .js img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+.js_text2 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+
+.ad_02 .js_text2 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.js_text2- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.ad_03 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_03 .lipmask_01 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+.lipmask_01_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_03 .lipmask_01_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.lipmask_01_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+.ad_04 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_04 .lipmask_02 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 42.5px 0 42.5px 0; */
+}
+
+.lipmask_02_text4 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_04 .lipmask_02_text4 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.lipmask_02_text4- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+.ad_2_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+.ad_05 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_05 .moonbox img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+
+.moonbox_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_05 .moonbox_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.moonbox_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.ad_06 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_06 .teca img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+.teca_text2 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+
+.ad_06 .teca_text2 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.teca_text2- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.ad_07 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_07 .primeday img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+.primeday_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_07 .primeday_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.primeday_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.ad_08 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_08 .trialkit img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+.trialkit_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_08 .trialkit_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.trialkit_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+.ad_3_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+.ad_09 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_09 .bfcm img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+
+.bfcm_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_09 .bfcm_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.bfcm_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.ad_10 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_10 .g_serum img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+.g_serum_text2 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+
+.ad_10 .g_serum_text2 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.g_serum_text2- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.ad_07 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_07 .primeday img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+.primeday_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_07 .primeday_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.primeday_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+.ad_08 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.ad_08 .trialkit img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+.trialkit_text3 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_08 .trialkit_text3 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.trialkit_text3- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
 
 
 
