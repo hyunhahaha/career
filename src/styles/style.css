@@ -1542,6 +1542,34 @@ body {
   }
 }
 
+.pop59 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common59 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 1200px;
+  max-height: 80vh; /* 화면 높이에 비례한 최대 높이 */
+  background-color: #050505;
+  overflow-y: auto; /* 세로 스크롤 추가 */
+
+  img {
+    width: 100%;
+    height: auto; /* 원본 비율 유지 */
+    display: block;
+  }
+}
+
 
 
 
@@ -2825,6 +2853,52 @@ body {
   /* width: 400px; */
   padding: 20px;
 }
+
+
+
+.banner_3_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+.banner_09 {
+  /* width: 440px; */
+  height: 600px;
+}
+
+.banner_09 .anillo_banner img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+
+.anillo_banner_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.banner_09 .anillo_banner_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.anillo_banner_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
 
 
 

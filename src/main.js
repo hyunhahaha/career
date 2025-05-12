@@ -103,6 +103,7 @@ const event_1 = document.querySelectorAll(".event_1_line > div");
 const event_2 = document.querySelectorAll(".event_2_line > div");
 const banner_1 = document.querySelectorAll(".banner_1_line > div");
 const banner_2 = document.querySelectorAll(".banner_2_line > div");
+const banner_3 = document.querySelectorAll(".banner_3_line > div");
 const ad_1 = document.querySelectorAll(".ad_1_line > div");
 const ad_2 = document.querySelectorAll(".ad_2_line > div");
 const ad_3 = document.querySelectorAll(".ad_3_line > div");
@@ -266,6 +267,22 @@ banner_2.forEach((item, i) => {
       case 1: gsap.to(".pop26", { autoAlpha: 1 }); break;
       case 2: gsap.to(".pop27", { autoAlpha: 1 }); break;
       case 3: gsap.to(".pop28", { autoAlpha: 1 }); break;
+
+    }
+    
+    // swiper1.slideTo(i);
+  });
+});
+
+
+banner_3.forEach((item, i) => {
+  item.addEventListener("click", (e) => {
+
+    e.stopPropagation();
+    
+    switch (i) {
+      case 0: gsap.to(".pop59", { autoAlpha: 1 }); break;
+
 
     }
     
