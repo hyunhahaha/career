@@ -5,7 +5,7 @@
 
 body {
   overflow: hidden;
-  background-color: #050505;
+  background-color: #030303;
 }
 
 .pages{
@@ -1776,10 +1776,21 @@ body {
   }
 }
 
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_01 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
 }
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_01 {
+    height: 500px;
+  }
+}
+
+
+
 
 .detail_01 .ct img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -1806,16 +1817,33 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_02 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_02 {
+    height: 500px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_02 .ct2 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 42.5px 0 42.5px 0;
+  padding: 75px 0 75px 0;
+}
+
+
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_02 .ct2 img {
+    padding: 42.5px 0 42.5px 0;
+  }
 }
 
 
@@ -1836,9 +1864,16 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_03 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_03 {
+    height: 500px;
+  }
 }
 
 .detail_03 .vt-g3 img {
@@ -1864,17 +1899,34 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_04 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_04 {
+    height: 500px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_04 .vt-g2_4 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 42.5px 0 42.5px 0;
+  padding: 75px 0 75px 0;
 }
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_04 .vt-g2_4 img {
+    padding: 42.5px 0 42.5px 0;
+  }
+}
+
+
 
 .vt-g2_text4 {
   /* width: 400px; */
@@ -1908,9 +1960,16 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_05 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_05 {
+    height: 500px;
+  }
 }
 
 .detail_05 .cd_h img {
@@ -1936,17 +1995,34 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_06 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_06 {
+    height: 500px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_06 .cd_h2 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 42.5px 0 42.5px 0;
+  padding: 75px 0 75px 0;
 }
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_06 .cd_h2 img {
+    padding: 42.5px 0 42.5px 0;
+  }
+}
+
+
 
 .cd_h_text2 {
   /* width: 400px; */
@@ -1965,9 +2041,16 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_07 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_07 {
+    height: 500px;
+  }
 }
 
 .detail_07 .cg_h3 img {
@@ -1993,17 +2076,33 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_08 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_08 {
+    height: 500px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_08 .cg_h4 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 42.5px 0 42.5px 0;
+  padding: 75px 0 75px 0;
 }
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_08 .cg_h4 img {
+    padding: 42.5px 0 42.5px 0;
+  }
+}
+
 
 .cg_h_text4 {
   /* width: 400px; */
@@ -2039,9 +2138,16 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_09 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_09 {
+    height: 500px;
+  }
 }
 
 .detail_09 .cd_j img {
@@ -2067,17 +2173,33 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_10 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_10 {
+    height: 500px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_10 .cd_j2 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 42.5px 0 42.5px 0;
+  padding: 75px 0 75px 0;
 }
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_10 .cd_j2 img {
+    padding: 42.5px 0 42.5px 0;
+  }
+}
+
 
 .cd_j_text2 {
   /* width: 400px; */
@@ -2096,9 +2218,16 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_11 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_11 {
+    height: 500px;
+  }
 }
 
 .detail_11 .cg_s3 img {
@@ -2124,17 +2253,33 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_12 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_12 {
+    height: 500px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_12 .cg_s4 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 42.5px 0 42.5px 0;
+  padding: 75px 0 75px 0;
 }
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_12 .cg_s4 img {
+    padding: 42.5px 0 42.5px 0;
+  }
+}
+
 
 .cg_s_text4 {
   /* width: 400px; */
@@ -2170,9 +2315,16 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_13 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_13 {
+    height: 500px;
+  }
 }
 
 .detail_13 .tt img {
@@ -2200,7 +2352,7 @@ body {
 
 .detail_14 {
   /* width: 440px; */
-  height: 600px;
+  height: 500px;
 }
 
 .detail_14 .cd_j2 img {
@@ -2229,7 +2381,7 @@ body {
 
 .detail_15 {
   /* width: 440px; */
-  height: 600px;
+  height: 500px;
 }
 
 .detail_15 .cg_s3 img {
@@ -2257,7 +2409,7 @@ body {
 
 .detail_16 {
   /* width: 440px; */
-  height: 600px;
+  height: 500px;
 }
 
 .detail_16 .cg_s4 img {
@@ -2311,16 +2463,31 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .event_01 {
-  /* width: 440px; */
-  height: 600px;
+  height: 837px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .event_01 {
+    height: 545px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .event_01 .gj img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 22.5px 0 22.5px 0;
+  padding: 40px 0 40px 0;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .event_01 .gj img {
+    padding: 22.5px 0 22.5px 0;
+  }
 }
 
 
@@ -2342,18 +2509,32 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .event_02 {
-  /* width: 440px; */
-  height: 600px;
+  height: 837px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .event_02 {
+    height: 545px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .event_02 .primeday img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 22.5px 0 22.5px 0;
+  padding: 40px 0 40px 0;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .event_02 .primeday img {
+    padding: 22.5px 0 22.5px 0;
+  }
+}
 
 .primeday_text2 {
   /* width: 400px; */
@@ -2373,16 +2554,31 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .event_03 {
-  /* width: 440px; */
-  height: 600px;
+  height: 837px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .event_03 {
+    height: 545px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .event_03 .christmas img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 22.5px 0 22.5px 0;
+  padding: 40px 0 40px 0;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .event_03 .christmas img {
+    padding: 22.5px 0 22.5px 0;
+  }
 }
 
 .christmas_text3 {
@@ -2402,9 +2598,16 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .event_04 {
-  /* width: 440px; */
-  height: 600px;
+  height: 837px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .event_04 {
+    height: 545px;
+  }
 }
 
 .event_04 .medi247 img {
@@ -2413,6 +2616,8 @@ body {
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
   /* padding: 42.5px 0 42.5px 0; */
 }
+
+
 
 .medi247_text4 {
   /* width: 400px; */
@@ -2445,16 +2650,23 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .event_05 {
-  /* width: 440px; */
-  height: 600px;
+  height: 837px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .event_05 {
+    height: 500px;
+  }
 }
 
 .event_05 .anillo_amber img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 22.5px 0 22.5px 0;
+  /* padding: 22.5px 0 22.5px 0; */
 }
 
 
@@ -2478,16 +2690,23 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .event_06 {
-  /* width: 440px; */
-  height: 600px;
+  height: 837px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .event_06 {
+    height: 500px;
+  }
 }
 
 .event_06 .anillo_lime img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 22.5px 0 22.5px 0;
+  /* padding: 22.5px 0 22.5px 0; */
 }
 
 
@@ -2511,16 +2730,23 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .event_07 {
-  /* width: 440px; */
-  height: 600px;
+  height: 837px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .event_07 {
+    height: 500px;
+  }
 }
 
 .event_07 .anillo_mothers img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 22.5px 0 22.5px 0;
+  /* padding: 22.5px 0 22.5px 0; */
 }
 
 .anillo_mothers_text3 {
@@ -2544,14 +2770,14 @@ body {
 
 .event_07 {
   /* width: 440px; */
-  height: 600px;
+  height: 500px;
 }
 
 .event_07 .anillo_mothers img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 22.5px 0 22.5px 0;
+  /* padding: 22.5px 0 22.5px 0; */
 }
 
 .anillo_mothers_text3 {
@@ -2594,10 +2820,19 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_01 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
 }
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_01 {
+    height: 500px;
+  }
+}
+
+
 
 .banner_01 .amazon_01 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -2625,9 +2860,16 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_02 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_02 {
+    height: 500px;
+  }
 }
 
 .banner_02 .amazon_02 img {
@@ -2656,9 +2898,16 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_03 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_03 {
+    height: 500px;
+  }
 }
 
 .banner_03 .holidaykit img {
@@ -2685,9 +2934,16 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_04 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_04 {
+    height: 500px;
+  }
 }
 
 .banner_04 .global_web img {
@@ -2728,18 +2984,32 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_05 {
-  /* width: 440px; */
-  height: 600px;
+  height: 855px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_05 {
+    height: 545px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_05 .global_web2 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 22.5px 0 22.5px 0;
+  padding: 40px 0 40px 0;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_05 .global_web2 img {
+    padding: 22.5px 0 22.5px 0;
+  }
+}
 
 
 .global_web2_text {
@@ -2761,18 +3031,32 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_06 {
-  /* width: 440px; */
-  height: 600px;
+  height: 855px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_06 {
+    height: 545px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_06 .global_web3 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 22.5px 0 22.5px 0;
+  padding: 40px 0 40px 0;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_06 .global_web3 img {
+    padding: 22.5px 0 22.5px 0;
+  }
+}
 
 .global_web3_text2 {
   /* width: 400px; */
@@ -2794,9 +3078,16 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_07 {
-  /* width: 440px; */
-  height: 600px;
+  height: 855px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_07 {
+    height: 545px;
+  }
 }
 
 .banner_07 .medi247_g img {
@@ -2825,17 +3116,34 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_08 {
-  /* width: 440px; */
-  height: 600px;
+  height: 855px;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_08 {
+    height: 545px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_08 .trialkit img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 79px 0 79px 0;
+  padding: 140px 0 140px 0;
 }
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_08 .trialkit img {
+    padding: 79px 0 79px 0;
+  }
+}
+
+
 
 .trialkit_text3 {
   /* width: 400px; */
@@ -2867,9 +3175,16 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .banner_09 {
-  /* width: 440px; */
-  height: 600px;
+  height: 855px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .banner_09 {
+    height: 500px;
+  }
 }
 
 .banner_09 .anillo_banner img {
@@ -2926,9 +3241,16 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .ad_01 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_01 {
+    height: 500px;
+  }
 }
 
 .ad_01 .sunstick img {
@@ -2957,9 +3279,16 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .ad_02 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_02 {
+    height: 500px;
+  }
 }
 
 .ad_02 .js img {
@@ -2988,9 +3317,16 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .ad_03 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_03 {
+    height: 500px;
+  }
 }
 
 .ad_03 .lipmask_01 img {
@@ -3017,9 +3353,16 @@ body {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .ad_04 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_04 {
+    height: 500px;
+  }
 }
 
 .ad_04 .lipmask_02 img {
@@ -3060,9 +3403,16 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .ad_05 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_05 {
+    height: 500px;
+  }
 }
 
 .ad_05 .moonbox img {
@@ -3093,9 +3443,16 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .ad_06 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_06 {
+    height: 500px;
+  }
 }
 
 .ad_06 .teca img {
@@ -3126,9 +3483,16 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .ad_07 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_07 {
+    height: 500px;
+  }
 }
 
 .ad_07 .primeday img {
@@ -3157,9 +3521,16 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .ad_08 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_08 {
+    height: 500px;
+  }
 }
 
 .ad_08 .trialkit img {
@@ -3200,9 +3571,16 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .ad_09 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_09 {
+    height: 500px;
+  }
 }
 
 .ad_09 .bfcm img {
@@ -3233,9 +3611,16 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .ad_10 {
-  /* width: 440px; */
-  height: 600px;
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_10 {
+    height: 500px;
+  }
 }
 
 .ad_10 .g_serum img {
@@ -3266,65 +3651,6 @@ body {
 
 
 
-.ad_07 {
-  /* width: 440px; */
-  height: 600px;
-}
-
-.ad_07 .primeday img {
-  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
-  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
-  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  /* padding: 22.5px 0 22.5px 0; */
-}
-
-.primeday_text3 {
-  /* width: 400px; */
-  padding: 30px 20px 0px 20px;
-  display: flex;
-  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
-  align-items: center;
-}
-
-.ad_07 .primeday_text3 li:first-child {
-  font-size: 26px; /* 원하는 폰트 크기 */
-}
-
-.primeday_text3- {
-  /* width: 400px; */
-  padding: 20px;
-}
-
-
-
-.ad_08 {
-  /* width: 440px; */
-  height: 600px;
-}
-
-.ad_08 .trialkit img {
-  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
-  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
-  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  /* padding: 22.5px 0 22.5px 0; */
-}
-
-.trialkit_text3 {
-  /* width: 400px; */
-  padding: 30px 20px 0px 20px;
-  display: flex;
-  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
-  align-items: center;
-}
-
-.ad_08 .trialkit_text3 li:first-child {
-  font-size: 26px; /* 원하는 폰트 크기 */
-}
-
-.trialkit_text3- {
-  /* width: 400px; */
-  padding: 20px;
-}
 
 
 
@@ -3350,9 +3676,16 @@ body {
   }
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_01 {
-  /* width: 440px; */
-  height: 600px;
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_01 {
+    height: 614px;
+  }
 }
 
 .main_01 img {
@@ -3379,6 +3712,17 @@ body {
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_02 {
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_02 {
+    height: 614px;
+  }
+}
 
 .main_02 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3404,6 +3748,17 @@ body {
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_03 {
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_03 {
+    height: 614px;
+  }
+}
 
 .main_03 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3430,6 +3785,19 @@ body {
 
 .fashion_3_line .main_04 img{
   padding: 135px 0 135px 0;
+}
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_04 {
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_04 {
+    height: 614px;
+  }
 }
 
 .main_04 img {
@@ -3469,9 +3837,16 @@ body {
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_05 {
-  /* width: 440px; */
-  height: 600px;
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_05 {
+    height: 614px;
+  }
 }
 
 .main_05 img {
@@ -3498,6 +3873,17 @@ body {
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_06 {
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_06 {
+    height: 614px;
+  }
+}
 
 .main_06 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3523,6 +3909,17 @@ body {
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_07 {
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_07 {
+    height: 614px;
+  }
+}
 
 .main_07 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3550,6 +3947,20 @@ body {
 .fashion_3_line .main_08 img{
   padding: 135px 0 135px 0;
 }
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_08 {
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_08 {
+    height: 614px;
+  }
+}
+
 
 .main_08 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3589,9 +4000,16 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_09 {
-  /* width: 440px; */
-  height: 600px;
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_09 {
+    height: 614px;
+  }
 }
 
 .main_09 img {
@@ -3618,6 +4036,17 @@ body {
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_10 {
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_10 {
+    height: 614px;
+  }
+}
 
 .main_10 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3643,6 +4072,17 @@ body {
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_11 {
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_11 {
+    height: 614px;
+  }
+}
 
 .main_11 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3669,9 +4109,31 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_3_line .main_12 img{
-  padding: 135px 0 135px 0;
+  padding: 240px 0 240px 0;
 }
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_3_line .main_12 img{
+    padding: 135px 0 135px 0;
+  }
+}
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_12 {
+  height: 980px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_12 {
+    height: 614px;
+  }
+}
+
 
 .main_12 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3713,9 +4175,16 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_13 {
-  /* width: 440px; */
-  height: 440px;
+  height: 651px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_13 {
+    height: 428px;
+  }
 }
 
 .main_13 img {
@@ -3742,6 +4211,17 @@ body {
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_14 {
+  height: 651px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_14 {
+    height: 428px;
+  }
+}
 
 .main_14 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3767,6 +4247,17 @@ body {
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_15 {
+  height: 651px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_15 {
+    height: 428px;
+  }
+}
 
 .main_15 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3792,18 +4283,55 @@ body {
 }
 
 
-
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_4_line .main_13 img{
-  padding: 25px 0 25px 0;
+  padding: 44px 0 44px 0;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_4_line .main_13 img {
+    padding: 25px 0 25px 0;
+  }
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_4_line .main_15 img{
-  padding: 42.5px 0 42.5px 0;
+  padding: 75.5px 0 75.5px 0;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_4_line .main_15 img {
+    padding: 43px 0 43px 0;
+  }
+}
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_4_line .main_16 img{
-  padding: 42.5px 0 42.5px 0;
+  padding: 75.5px 0 75.5px 0;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_4_line .main_16 img {
+    padding: 43px 0 43px 0;
+  }
+}
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_16 {
+  height: 651px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_16 {
+    height: 428px;
+  }
 }
 
 .main_16 img {
@@ -3849,9 +4377,16 @@ body {
 
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_17 {
-  /* width: 440px; */
-  height: 530px;
+  height: 585px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_17 {
+    height: 400px;
+  }
 }
 
 .main_17 img {
@@ -3878,6 +4413,17 @@ body {
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_18 {
+  height: 585px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_18 {
+    height: 400px;
+  }
+}
 
 .main_18 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3903,6 +4449,17 @@ body {
 }
 
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_19 {
+  height: 585px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_19 {
+    height: 400px;
+  }
+}
 
 .main_19 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
@@ -3929,17 +4486,56 @@ body {
 
 
 
-
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_5_line .main_18 img{
-  padding: 30px 0 30px 0;
+  padding: 50px 0 50px 0;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_5_line .main_18 img {
+    padding: 30px 0 30px 0;
+  }
+}
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_5_line .main_19 img{
-  padding: 30px 0 30px 0;
+  /* padding: 30px 0 30px 0; */
+  padding: 50px 0 50px 0;
 }
 
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_5_line .main_19 img {
+    padding: 30px 0 30px 0;
+  }
+}
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .fashion_5_line .main_20 img{
-  padding: 71.5px 0 71.5px 0;
+  padding: 123px 0 123px 0;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_5_line .main_20 img {
+    padding: 71.5px 0 71.5px 0;
+  }
+}
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.fashion_20 {
+  height: 585px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .fashion_20 {
+    height: 400px;
+  }
 }
 
 .main_20 img {
