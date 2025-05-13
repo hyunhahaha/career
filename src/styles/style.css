@@ -1593,7 +1593,7 @@ body {
 .header_text {
   display: flex; /* Flexbox 활성화 */
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
-  background-color: #050505;
+  background-color: #030303;
   padding: 30px 50px 10px 50px;
   list-style: none; /* 기본 리스트 스타일 제거 */
   text-align: center;
@@ -1607,7 +1607,7 @@ body {
 .section02 {
   /* width: 1920px; */
   height: 296px;
-  background-color: #050505;
+  background-color: #030303;
   border-style: none;
 
   .text_container {
@@ -1639,7 +1639,7 @@ body {
 .text_bottom .web_design {
   display: flex; /* Flexbox 활성화 */
   justify-content: space-between; /* 좌우 끝으로 요소 배치 */
-  background-color: #050505;
+  background-color: #030303;
   padding: 30px 50px 30px 50px;
   list-style: none; /* 기본 리스트 스타일 제거 */
   text-align: center;
@@ -1662,7 +1662,7 @@ body {
 .section03 {
   /* width: 1920px; */
   /* height: 2350px; */
-  background-color: #050505;
+  background-color: #030303;
   border-style: none;
   
 
@@ -1678,7 +1678,7 @@ body {
 .c1 {
   width: 100px;
   height: 40px;
-  background-color: #050505;
+  background-color: #030303;
   border: 1px solid white;
   border-radius: 50px;
   display: flex; /* Flexbox 활성화 */
@@ -1688,13 +1688,14 @@ body {
 
 .c1:hover {
   background-color: white; /* hover 시 배경색을 흰색으로 변경 */
-  color: #050505; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  color: #030303; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  font-weight: bold; /* hover 시 텍스트 볼드 처리 */
 }
 
 .c2 {
   width: 100px;
   height: 40px;
-  background-color: #050505;
+  background-color: #030303;
   border: 1px solid white;
   border-radius: 50px;
   display: flex; /* Flexbox 활성화 */
@@ -1704,13 +1705,14 @@ body {
 
 .c2:hover {
   background-color: white; /* hover 시 배경색을 흰색으로 변경 */
-  color: #050505; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  color: #030303; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  font-weight: bold; /* hover 시 텍스트 볼드 처리 */
 }
 
 .c3 {
   width: 100px;
   height: 40px;
-  background-color: #050505;
+  background-color: #030303;
   border: 1px solid white;
   border-radius: 50px;
   display: flex; /* Flexbox 활성화 */
@@ -1721,7 +1723,7 @@ body {
 .c4 {
   width: 100px;
   height: 40px;
-  background-color: #050505;
+  background-color: #030303;
   border: 1px solid white;
   border-radius: 50px;
   display: flex; /* Flexbox 활성화 */
@@ -1731,18 +1733,20 @@ body {
 
 .c3:hover {
   background-color: white; /* hover 시 배경색을 흰색으로 변경 */
-  color: #050505; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  color: #030303; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  font-weight: bold; /* hover 시 텍스트 볼드 처리 */
 }
 
 .c4:hover {
   background-color: white; /* hover 시 배경색을 흰색으로 변경 */
-  color: #050505; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  color: #030303; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  font-weight: bold; /* hover 시 텍스트 볼드 처리 */
 }
 
 .c5 {
   width: 100px;
   height: 40px;
-  background-color: #050505;
+  background-color: #030303;
   border: 1px solid white;
   border-radius: 50px;
   display: flex; /* Flexbox 활성화 */
@@ -1752,7 +1756,8 @@ body {
 
 .c5:hover {
   background-color: white; /* hover 시 배경색을 흰색으로 변경 */
-  color: #050505; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  color: #030303; /* hover 시 텍스트 색상을 어두운 색으로 변경 */
+  font-weight: bold; /* hover 시 텍스트 볼드 처리 */
 }
 
 
@@ -2766,36 +2771,6 @@ body {
   padding: 20px;
 }
 
-
-
-.event_07 {
-  /* width: 440px; */
-  height: 500px;
-}
-
-.event_07 .anillo_mothers img {
-  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
-  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
-  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  /* padding: 22.5px 0 22.5px 0; */
-}
-
-.anillo_mothers_text3 {
-  /* width: 400px; */
-  padding: 30px 20px 0px 20px;
-  display: flex;
-  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
-  align-items: center;
-}
-
-.event_07 .anillo_mothers_text3 li:first-child {
-  font-size: 26px; /* 원하는 폰트 크기 */
-}
-
-.anillo_mothers_text3- {
-  /* width: 400px; */
-  padding: 20px;
-}
 
 
 
