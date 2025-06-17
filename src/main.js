@@ -184,6 +184,8 @@ detail_4.forEach((item, i) => {
     
     switch (i) {
       case 0: gsap.to(".pop13", { autoAlpha: 1 }); break;
+      case 1: gsap.to(".pop62", { autoAlpha: 1 }); break;
+      case 2: gsap.to(".pop63", { autoAlpha: 1 }); break;
 
     }
     
@@ -341,6 +343,8 @@ ad_3.forEach((item, i) => {
     switch (i) {
       case 0: gsap.to(".pop37", { autoAlpha: 1 }); break;
       case 1: gsap.to(".pop38", { autoAlpha: 1 }); break;
+      case 2: gsap.to(".pop60", { autoAlpha: 1 }); break;
+      case 3: gsap.to(".pop61", { autoAlpha: 1 }); break;
 
     }
     

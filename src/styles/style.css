@@ -1576,6 +1576,113 @@ a:hover {
   }
 }
 
+.pop60 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common60 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 600px;
+  height: 600px;
+  background-color: #050505;
+
+  img {
+    width: 100%;
+  }
+}
+
+.pop61 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common61 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 600px;
+  height: 600px;
+  background-color: #050505;
+
+  img {
+    width: 100%;
+  }
+}
+
+.pop62 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common62 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 600px;
+  height: 600px;
+  background-color: #050505;
+
+  img {
+    width: 100%;
+  }
+}
+
+.pop63 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common63 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 1200px;
+  max-height: 80vh; /* 화면 높이에 비례한 최대 높이 */
+  background-color: #050505;
+  overflow-y: auto; /* 세로 스크롤 추가 */
+
+  img {
+    width: 100%;
+    height: auto; /* 원본 비율 유지 */
+    display: block;
+  }
+}
+
+
+
+
+
 
 
 
@@ -2363,19 +2470,25 @@ a:hover {
   padding: 20px;
 }
 
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_14 {
-  /* width: 440px; */
-  height: 500px;
+  height: 777px;
 }
 
-.detail_14 .cd_j2 img {
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_14 {
+    height: 500px;
+  }
+}
+
+.detail_14 .gj_p img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
-  padding: 42.5px 0 42.5px 0;
 }
 
-.cd_j_text2 {
+.gj_p_text {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
@@ -2383,27 +2496,46 @@ a:hover {
   align-items: center;
 }
 
-.detail_14 .cd_j_text2 li:first-child {
+.detail_14 .gj_p_text li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-.cd_j_text2- {
+.gj_p_text- {
   /* width: 400px; */
   padding: 20px;
 }
 
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
 .detail_15 {
-  /* width: 440px; */
-  height: 500px;
+  height: 777px;
 }
 
-.detail_15 .cg_s3 img {
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_15 {
+    height: 500px;
+  }
+}
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.detail_15 .gj_p2 img {
   width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
   height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
   object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  padding: 75px 0 75px 0;
 }
 
-.cg_s_text3 {
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .detail_15 .gj_p2 img {
+    padding: 42.5px 0 42.5px 0;
+  }
+}
+
+
+.gj_p2_text {
   /* width: 400px; */
   padding: 30px 20px 0px 20px;
   display: flex;
@@ -2411,14 +2543,15 @@ a:hover {
   align-items: center;
 }
 
-.detail_15 .cg_s_text3 li:first-child {
+.detail_15 .gj_p2_text li:first-child {
   font-size: 26px; /* 원하는 폰트 크기 */
 }
 
-.cg_s_text3- {
+.gj_p2_text- {
   /* width: 400px; */
   padding: 20px;
 }
+
 
 .detail_16 {
   /* width: 440px; */
@@ -3632,6 +3765,83 @@ a:hover {
   padding: 20px;
 }
 
+
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.ad_11 {
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_11 {
+    height: 500px;
+  }
+}
+
+.ad_11 .pdrn_line3 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+.pdrn_line3_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_11 .pdrn_line3_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.pdrn_line3_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.ad_12 {
+  height: 777px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_12 {
+    height: 500px;
+  }
+}
+
+.ad_12 .sunstick_duo img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+.sunstick_duo_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_12 .sunstick_duo_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.sunstick_duo_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
 
 
 
