@@ -1679,6 +1679,95 @@ a:hover {
   }
 }
 
+.pop64 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common64 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 500px;
+  max-height: 80vh; /* 화면 높이에 비례한 최대 높이 */
+  background-color: #050505;
+  overflow-y: auto; /* 세로 스크롤 추가 */
+
+  img {
+    width: 100%;
+    height: auto; /* 원본 비율 유지 */
+    display: block;
+  }
+}
+
+.pop65 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common65 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 500px;
+  max-height: 80vh; /* 화면 높이에 비례한 최대 높이 */
+  background-color: #050505;
+  overflow-y: auto; /* 세로 스크롤 추가 */
+
+  img {
+    width: 100%;
+    height: auto; /* 원본 비율 유지 */
+    display: block;
+  }
+}
+
+
+.pop66 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.469);
+  /* display: none; */
+}
+
+.common66 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 500px;
+  max-height: 80vh; /* 화면 높이에 비례한 최대 높이 */
+  background-color: #050505;
+  overflow-y: auto; /* 세로 스크롤 추가 */
+
+  img {
+    width: 100%;
+    height: auto; /* 원본 비율 유지 */
+    display: block;
+  }
+
+  video{
+    width: 100%;
+  }
+}
+
 
 
 
@@ -3839,6 +3928,137 @@ a:hover {
 }
 
 .sunstick_duo_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+
+
+.ad_4_line {
+  display: flex;
+  /* width: 1920px; */
+  gap: 20px;
+  padding: 0 40px 0 40px;
+
+  & div {
+    flex: 1;
+  }
+}
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.ad_13 {
+  height: 900px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_13 {
+    height: 600px;
+  }
+}
+
+.ad_13 .wm_01 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+
+.wm_01_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_13 .wm_01_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.wm_01_text- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.ad_14 {
+  height: 900px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_14 {
+    height: 600px;
+  }
+}
+
+.ad_14 .wm_02 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+
+.wm_02_text2 {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_14 .wm_02_text2 li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.wm_02_text2- {
+  /* width: 400px; */
+  padding: 20px;
+}
+
+
+/* 기본값: 32인치 모니터 (1920px 이상) */
+.ad_15 {
+  height: 900px;
+}
+
+/* 맥북 14인치 이하 (1512px 이하) */
+@media (max-width: 1512px) {
+  .ad_15 {
+    height: 600px;
+  }
+}
+
+.ad_15 .wm_03 img {
+  width: 100%; /* 부모 요소의 가로 크기에 맞춤 */
+  height: 100%; /* 부모 요소의 세로 크기에 맞춤 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 부모 요소에 맞게 크기 조절 */
+  /* padding: 22.5px 0 22.5px 0; */
+}
+
+
+
+.wm_j_01_text {
+  /* width: 400px; */
+  padding: 30px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between; /* 좌우 끝으로 요소 배치 */
+  align-items: center;
+}
+
+.ad_15 .wm_j_01_text li:first-child {
+  font-size: 26px; /* 원하는 폰트 크기 */
+}
+
+.wm_j_01_text- {
   /* width: 400px; */
   padding: 20px;
 }
