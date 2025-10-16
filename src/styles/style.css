@@ -28,6 +28,32 @@ a:hover {
 }
 
 
+
+
+
+
+
+.swipe-hint {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+
 /* detail */
 
 .pop1 {
@@ -1464,7 +1490,7 @@ a:hover {
   top: 50%;
   translate: -50% -50%;
   width: 800px;
-  height: 620px;
+  height: 520px;
   background-color: #050505;
 
   img {

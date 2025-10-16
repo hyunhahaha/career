@@ -133,10 +133,22 @@ detail_1.forEach((item, i) => {
     e.stopPropagation();
     
     switch (i) {
-      case 0: gsap.to(".pop1", { autoAlpha: 1 }); break;
-      case 1: gsap.to(".pop2", { autoAlpha: 1 }); break;
-      case 2: gsap.to(".pop3", { autoAlpha: 1 }); break;
-      case 3: gsap.to(".pop4", { autoAlpha: 1 }); break;
+      case 0: gsap.to(".pop1", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop1") // 여기에 추가
+      }); break;
+      case 1: gsap.to(".pop2", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop2") // 여기에 추가
+      }); break;
+      case 2: gsap.to(".pop3", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop3") // 여기에 추가
+      }); break;
+      case 3: gsap.to(".pop4", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop4") // 여기에 추가
+      }); break;
     }
     
     // swiper1.slideTo(i);
@@ -150,10 +162,22 @@ detail_2.forEach((item, i) => {
     e.stopPropagation();
     
     switch (i) {
-      case 0: gsap.to(".pop5", { autoAlpha: 1 }); break;
-      case 1: gsap.to(".pop6", { autoAlpha: 1 }); break;
-      case 2: gsap.to(".pop7", { autoAlpha: 1 }); break;
-      case 3: gsap.to(".pop8", { autoAlpha: 1 }); break;
+      case 0: gsap.to(".pop5", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop5") // 여기에 추가
+      }); break;
+      case 1: gsap.to(".pop6", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop6") // 여기에 추가
+      }); break;
+      case 2: gsap.to(".pop7", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop7") // 여기에 추가
+      }); break;
+      case 3: gsap.to(".pop8", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop8") // 여기에 추가
+      }); break;
     }
     
     // swiper1.slideTo(i);
@@ -167,10 +191,22 @@ detail_3.forEach((item, i) => {
     e.stopPropagation();
     
     switch (i) {
-      case 0: gsap.to(".pop9", { autoAlpha: 1 }); break;
-      case 1: gsap.to(".pop10", { autoAlpha: 1 }); break;
-      case 2: gsap.to(".pop11", { autoAlpha: 1 }); break;
-      case 3: gsap.to(".pop12", { autoAlpha: 1 }); break;
+      case 0: gsap.to(".pop9", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop9") // 여기에 추가
+      }); break;
+      case 1: gsap.to(".pop10", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop10") // 여기에 추가
+      }); break;
+      case 2: gsap.to(".pop11", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop11") // 여기에 추가
+      }); break;
+      case 3: gsap.to(".pop12", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop12") // 여기에 추가
+      }); break;
     }
     
     // swiper1.slideTo(i);
@@ -184,9 +220,18 @@ detail_4.forEach((item, i) => {
     e.stopPropagation();
     
     switch (i) {
-      case 0: gsap.to(".pop13", { autoAlpha: 1 }); break;
-      case 1: gsap.to(".pop62", { autoAlpha: 1 }); break;
-      case 2: gsap.to(".pop63", { autoAlpha: 1 }); break;
+      case 0: gsap.to(".pop13", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop13") // 여기에 추가
+      }); break;
+      case 1: gsap.to(".pop62", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop62") // 여기에 추가
+      }); break;
+      case 2: gsap.to(".pop63", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop63") // 여기에 추가
+      }); break;
 
     }
     
@@ -209,8 +254,14 @@ event_1.forEach((item, i) => {
     
     switch (i) {
       case 0: gsap.to(".pop14", { autoAlpha: 1 }); break;
-      case 1: gsap.to(".pop15", { autoAlpha: 1 }); break;
-      case 2: gsap.to(".pop16", { autoAlpha: 1 }); break;
+      case 1: gsap.to(".pop15", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop15") // 여기에 추가
+      }); break;
+      case 2: gsap.to(".pop16", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop16") // 여기에 추가
+      }); break;
       case 3: gsap.to(".pop17", { autoAlpha: 1 }); break;
 
     }
@@ -251,7 +302,10 @@ banner_1.forEach((item, i) => {
       case 0: gsap.to(".pop21", { autoAlpha: 1 }); break;
       case 1: gsap.to(".pop22", { autoAlpha: 1 }); break;
       case 2: gsap.to(".pop23", { autoAlpha: 1 }); break;
-      case 3: gsap.to(".pop24", { autoAlpha: 1 }); break;
+      case 3: gsap.to(".pop24", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop24") // 여기에 추가
+      }); break;
 
     }
     
@@ -306,10 +360,22 @@ ad_1.forEach((item, i) => {
     e.stopPropagation();
     
     switch (i) {
-      case 0: gsap.to(".pop29", { autoAlpha: 1 }); break;
-      case 1: gsap.to(".pop30", { autoAlpha: 1 }); break;
-      case 2: gsap.to(".pop31", { autoAlpha: 1 }); break;
-      case 3: gsap.to(".pop32", { autoAlpha: 1 }); break;
+      case 0: gsap.to(".pop29", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop29") // 여기에 추가
+      }); break;
+      case 1: gsap.to(".pop30", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop30") // 여기에 추가
+      }); break;
+      case 2: gsap.to(".pop31", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop31") // 여기에 추가
+      }); break;
+      case 3: gsap.to(".pop32", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop32") // 여기에 추가
+      }); break;
 
     }
     
@@ -324,10 +390,22 @@ ad_2.forEach((item, i) => {
     e.stopPropagation();
     
     switch (i) {
-      case 0: gsap.to(".pop33", { autoAlpha: 1 }); break;
-      case 1: gsap.to(".pop34", { autoAlpha: 1 }); break;
-      case 2: gsap.to(".pop35", { autoAlpha: 1 }); break;
-      case 3: gsap.to(".pop36", { autoAlpha: 1 }); break;
+      case 0: gsap.to(".pop33", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop33") // 여기에 추가
+      }); break;
+      case 1: gsap.to(".pop34", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop34") // 여기에 추가
+      }); break;
+      case 2: gsap.to(".pop35", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop35") // 여기에 추가
+      }); break;
+      case 3: gsap.to(".pop36", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop36") // 여기에 추가
+      }); break;
 
     }
     
@@ -342,10 +420,22 @@ ad_3.forEach((item, i) => {
     e.stopPropagation();
     
     switch (i) {
-      case 0: gsap.to(".pop37", { autoAlpha: 1 }); break;
-      case 1: gsap.to(".pop38", { autoAlpha: 1 }); break;
-      case 2: gsap.to(".pop60", { autoAlpha: 1 }); break;
-      case 3: gsap.to(".pop61", { autoAlpha: 1 }); break;
+      case 0: gsap.to(".pop37", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop37") // 여기에 추가
+      }); break;
+      case 1: gsap.to(".pop38", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop38") // 여기에 추가
+      }); break;
+      case 2: gsap.to(".pop60", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop60") // 여기에 추가
+      }); break;
+      case 3: gsap.to(".pop61", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop61") // 여기에 추가
+      }); break;
 
     }
     
@@ -362,7 +452,10 @@ ad_4.forEach((item, i) => {
     switch (i) {
       case 0: gsap.to(".pop64", { autoAlpha: 1 }); break;
       case 1: gsap.to(".pop65", { autoAlpha: 1 }); break;
-      case 2: gsap.to(".pop66", { autoAlpha: 1 }); break;
+      case 2: gsap.to(".pop66", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop66") // 여기에 추가
+      }); break;
 
 
     }
@@ -453,7 +546,10 @@ fashion_5.forEach((item, i) => {
     e.stopPropagation();
     
     switch (i) {
-      case 0: gsap.to(".pop55", { autoAlpha: 1 }); break;
+      case 0: gsap.to(".pop55", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop55") // 여기에 추가
+      }); break;
       case 1: gsap.to(".pop56", { autoAlpha: 1 }); break;
       case 2: gsap.to(".pop57", { autoAlpha: 1 }); break;
       case 3: gsap.to(".pop58", { autoAlpha: 1 }); break;
@@ -462,6 +558,26 @@ fashion_5.forEach((item, i) => {
     // swiper1.slideTo(i);
   });
 });
+
+
+
+
+
+
+function showSwipeHint(popSelector) {
+  const hint = document.querySelector(`${popSelector} .swipe-hint`);
+  if (!hint) return;
+
+  // 힌트 초기화
+  gsap.set(hint, { autoAlpha: 0 });
+  
+  // 나타났다 사라짐
+  gsap.to(hint, { autoAlpha: 1, duration: 0.5 });
+  gsap.to(hint, { autoAlpha: 0, delay: 3, duration: 0.5 });
+}
+
+
+
 
 
 
