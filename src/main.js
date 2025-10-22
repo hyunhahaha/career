@@ -108,6 +108,7 @@ const ad_1 = document.querySelectorAll(".ad_1_line > div");
 const ad_2 = document.querySelectorAll(".ad_2_line > div");
 const ad_3 = document.querySelectorAll(".ad_3_line > div");
 const ad_4 = document.querySelectorAll(".ad_4_line > div");
+const ad_5 = document.querySelectorAll(".ad_5_line > div");
 const fashion_1 = document.querySelectorAll(".fashion_1_line > div");
 const fashion_2 = document.querySelectorAll(".fashion_2_line > div");
 const fashion_3 = document.querySelectorAll(".fashion_3_line > div");
@@ -231,6 +232,10 @@ detail_4.forEach((item, i) => {
       case 2: gsap.to(".pop63", {
         autoAlpha: 1,
         onComplete: () => showSwipeHint(".pop63") // 여기에 추가
+      }); break;
+      case 3: gsap.to(".pop72", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop72") // 여기에 추가
       }); break;
 
     }
@@ -450,12 +455,54 @@ ad_4.forEach((item, i) => {
     e.stopPropagation();
     
     switch (i) {
-      case 0: gsap.to(".pop64", { autoAlpha: 1 }); break;
-      case 1: gsap.to(".pop65", { autoAlpha: 1 }); break;
+      case 0: gsap.to(".pop64", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop64") // 여기에 추가
+      }); break;
+      case 1: gsap.to(".pop65", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop65") // 여기에 추가
+      }); break;
       case 2: gsap.to(".pop66", {
         autoAlpha: 1,
         onComplete: () => showSwipeHint(".pop66") // 여기에 추가
       }); break;
+      case 3: gsap.to(".pop67", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop67") // 여기에 추가
+      }); break;
+
+
+    }
+    
+    // swiper1.slideTo(i);
+  });
+});
+
+
+ad_5.forEach((item, i) => {
+  item.addEventListener("click", (e) => {
+
+    e.stopPropagation();
+    
+    switch (i) {
+      case 0: gsap.to(".pop68", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop68") // 여기에 추가
+      }); break;
+      case 1: gsap.to(".pop69", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop69") // 여기에 추가
+      }); break;
+      case 2: gsap.to(".pop70", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop70") // 여기에 추가
+      }); break;
+      case 3: gsap.to(".pop71", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop71") // 여기에 추가
+      }); break;
+
 
 
     }
