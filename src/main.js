@@ -325,8 +325,14 @@ banner_2.forEach((item, i) => {
     e.stopPropagation();
     
     switch (i) {
-      case 0: gsap.to(".pop25", { autoAlpha: 1 }); break;
-      case 1: gsap.to(".pop26", { autoAlpha: 1 }); break;
+      case 0: gsap.to(".pop25", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop25") // 여기에 추가
+      }); break;
+      case 1: gsap.to(".pop26", {
+        autoAlpha: 1,
+        onComplete: () => showSwipeHint(".pop26") // 여기에 추가
+      }); break;
       case 2: gsap.to(".pop27", { autoAlpha: 1 }); break;
       case 3: gsap.to(".pop28", { autoAlpha: 1 }); break;
 
